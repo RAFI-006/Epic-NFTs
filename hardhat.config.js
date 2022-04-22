@@ -17,7 +17,7 @@
 //  * @type import('hardhat/config').HardhatUserConfig
 //  */
 // module.exports = {
-//   solidity: "0.8.4",
+//   solidity: "0.8.13",
 // };
 
 
@@ -25,7 +25,7 @@
 require('@nomiclabs/hardhat-waffle');
 
 module.exports = {
-  solidity: '0.8.1',
+  solidity: '0.8.13',
   networks: {
     rinkeby: {
       url: 'https://eth-rinkeby.alchemyapi.io/v2/SDMplwWbiuccm00APfLYE5433ZAgM_vQ',
